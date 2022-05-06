@@ -1,0 +1,348 @@
+
+/* Responsive PC    */
+@media only screen and (max-width: 1200px){
+    .Logo{
+        font-size: 16px;
+    }
+
+    .heading__main-box{
+        transform: translate(-55%, -20%);
+    }
+
+    .place-buy-ticket{
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control{
+        padding: 15px;
+    }
+    .form-footer{
+        padding: 30px 20px 0;
+    }
+    .social-list .img-footer{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:1000px){
+    .wrapper{
+        overflow: hidden;
+    }
+
+    .heading__main-box{
+        transform: translateX(-35%);
+    }
+}
+@media only screen and (max-width: 920px){
+    .Logo{
+        font-size: 13px;
+    }
+
+    .nav ol li{
+        margin: 0.2rem;
+    }
+
+    .heading__main-box{
+        transform: translate(-30%, -10%);
+    }
+
+    .social-list  .img-footer{
+        display: none;
+    }
+}
+
+/* Responsive Tablet */
+
+/* ------------IPAD AIR */
+@media screen and (max-width: 830px) {
+    .wrapper{
+        overflow: hidden;
+    }
+
+    nav{
+        display: block;
+    }
+    nav #main-menu li:hover{
+        background: #203A43;
+        transition: all 0.3s;
+    }
+
+    .Logo{
+        font-size: 16px;
+    }
+    .navbar{
+        display: block;
+    }
+
+    .heading__main-box{
+        transform: translate(-25%);
+    }
+
+    .contact-info{
+
+        line-height: 2;
+    }
+    .solid-footer{
+        margin: 80px 20px 0;
+    color: #2c5364;
+    }
+    }
+
+
+    /* -------------IPAD MINI */
+@media screen and (max-width: 768px) {
+
+    .wrapper{
+        overflow: hidden;
+    }
+    .container{
+        padding: 0 0 0 16px;
+    }
+    #main-menu {
+        position: fixed;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav #main-menu li:hover{
+        background: #203A43;
+        transition: all 0.3s;
+    }
+    .navbar{
+        width: 95px;
+    }
+
+    nav ul {
+        background: #2c5364;
+    }
+    .navbar .main-menu{
+        transform: translate(10%,120%);
+    }
+    #toggle {
+        display: block;
+        position: relative;
+        top:10px;
+        text-align: center;
+        background-image: linear-gradient(250deg, rgba(44, 83, 100,0.8) 40%);
+    }
+    nav #main-menu li:hover a {
+        background: #203A43;
+        transition: all 0.3s;
+     
+    }
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width:451px) and (max-width: 767px){
+    .wrapper{overflow: hidden;}
+
+    nav #main-menu li:hover{
+        background: #203A43;
+        transition: all 0.3s;
+    }
+    .heading__main-box{
+        transform: translateX(-35%);
+    }
+}
+/* Responsive Mobile */
+
+@media screen and (max-width:670px) {
+    .container{
+        display: flex;
+        align-items: center;
+    }
+
+    nav #main-menu li:hover{
+        background: #203A43;
+        transition: all 0.3s;
+    }
+    .link-index img{
+        display: none;
+    }
+    .Logo{
+        display: block;
+    }
+
+    .heading__main-box{
+        transform: translate(0%,10%);
+    }
+    .heading__main-box .header-text{
+        font-size: 8rem;
+    }
+
+    #content .place-img{
+        width: 60%;
+        height: auto;
+    }
+
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    .places-img{
+        height: auto;
+    }
+
+
+    .contact-form{
+        margin-top: 32px;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    .col-picture{
+        display: block;
+    }
+
+    #footer .form-footer{
+        display: inline-block;
+    }
+
+    #footer .text-h2-ft{
+        text-align: center;
+    }
+    #footer .text-h3-ft{
+        display: block;
+    }
+
+    .area-link {
+        width: 100%;
+        padding: 32px 0px;
+    }
+
+
+    .social-list{
+        transform: translateX(20%)
+    }
+
+    .social-list--item{
+        margin-right: 4px;
+    }
+
+    .text-follow{
+        display: none;
+    }
+
+    .solid-footer {
+        margin: 10px 22px 0;
+        color: #2c5364;
+    }
+
+    .list-copyright{
+        display: block;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .link-list--text{
+        padding: 0;
+    }
+}
+/* ----------IPHONE 6/7/8 PLUS */
+@media only screen and (max-width: 450px){
+
+    .container{
+        display: flex;
+        align-items: center;
+    }
+
+    nav #main-menu li:hover {
+        background: #203A43;
+        transition: all 0.3s;
+    }
+    .link-index img{
+        display: none;
+    }
+    .Logo{
+        display: block;
+    }
+
+    .heading__main-box{
+        transform: translate(0%,10%);
+    }
+    .heading__main-box .header-text{
+        font-size: 8rem;
+    }
+
+
+
+    #content .place-img{
+        width: 60%;
+    }
+
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    .places-img{
+        height: auto;
+    }
+
+
+    .contact-form{
+        margin-top: 32px;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    .col-picture{
+        display: block;
+    }
+
+    #footer .form-footer{
+        display: block;
+    }
+
+    #footer .text-h3-ft{
+        display: block;
+    }
+
+    .area-link {
+        width: 100%;
+        padding: 32px 0px;
+    }
+
+    .social-list{
+        transform: translateX(42%)
+    }
+
+    .social-list--item{
+        margin-right: 4px;
+    }
+
+    .text-follow{
+        display: none;
+    }
+
+    .solid-footer {
+        margin: 10px 22px 0;
+        color: #2c5364;
+    }
+
+    .list-copyright{
+        display: block;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .link-list--text{
+        padding: 0;
+    }
+}
+
+@media  screen and (max-width: 350px) {
+    .wrapper{
+        overflow: hidden;
+    }
+    
+   .s-haft-width{
+       width: 50%;
+   }
+}

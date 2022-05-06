@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+/* Common */
+.row1 {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row1::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.mt-8 {
+    margin-top: 8px !important; 
+}
+
+.mt-16 {
+    margin-top: 16px !important;
+}
+
+
+.mt-32{
+    margin-top: 32px !important;
+}
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col3 {
+    width: 33.33333%;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.font-size{
+    font-size: 1.4rem !important;
+}
+.col-picture{
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 100%;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+    background-image: linear-gradient(250deg, rgba(44, 83, 100, 0.8) 40%, rgba(33, 58, 66), rgba(15, 32, 39)), url(http://khachsanxuantrang.com/upload/images/gioi-thieu-thanh-pho-ha-giang-2.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+
+.container {
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    height: 100px;
+    padding: 0 30px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.scroll{
+    background-image: linear-gradient(250deg, rgb(44, 83, 100) 40%, rgb(33, 58, 66), rgb(15, 32, 39));
+}
+
+.link-index{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.Logo {
+    color: #f8f8f8;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.container img{
+    height: 100%;
+    /* margin-left: 24px; */
+    width: 100px;
+}
+
+
+/* .nav {
+    
+    display:block;
+    align-items: center;
+} */
+
+/* .nav ol {
+    display: flex;
+    list-style: none;
+    float: right;
+} */
+
+/* .nav .icon{
+    display: none;
+}
+.button {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    display: flex;
+} */
+
+/* .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Font Awsome 5 Free';
+    font-weight: 700;
+    font-size: 2em;
+} */
+
+/* .nav ol li {
+    margin: .5em;
+}
+
+.nav ol li a {
+    text-decoration: none;
+    padding: 0.2em 1.2em 0.9em 1.2em;
+    border-radius: 10px 10px 0 0;
+
+    color: #f8f8f8;
+    transition: all 1s;
+    position: relative;
+    z-index: 1;
+} */
+
+/* .nav ol li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 41px;
+    border-radius: 10px 10px 0 0;
+    background: #853333;
+    transform-origin: bottom;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    transform: scaleY(0.05);
+    z-index: -1;
+    transition: all 1s;
+} */
+
+/* .nav ol li a:hover::before {
+    transform: scaleY(1.1);
+/* } */
+
+ /* .nav ol li a:hover {
+    color: #2C5364;
+    background: #fff;
+}  */
+
+
+ul 
+{
+    /* background: #2c5364; */
+    list-style-type: none;
+}
+
+
+#main-menu {
+    display: flex;
+}
+
+nav #main-menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 8px 15px;
+}
+
+nav #main-menu li:hover a {
+    background: #203A43;
+    transition: all 0.3s;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+}
+
+#toggle {
+    display: none;
+    background: #2c5364;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.row {
+    /* max-width: 1140px; */
+    margin: 0 auto;
+}
+
+.heading__main-box {
+
+    /* text-align: center; */
+    transform: translate(-80%, -20%);
+
+}
+
+.header-text {
+    font-family: 'Qwigley', cursive;
+    /* text-align: center; */
+    /* text-transform:uppercase; */
+    font-size: 11.4rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    color: white;
+    line-height: 135%;
+    margin-bottom: 50px;
+
+}
+
+.btn {
+    /* align-items: center; */
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin: 0 5px;
+}
+
+.btn:hover{
+    background: #DD962C ;
+}
+.bgr {
+    background: url(https://bvhttdl.mediacdn.vn/291773308735864832/2021/5/27/hagiang1-1622098949057-162209894992955970174.jpg);
+    background-size: cover;
+}
+
+
+
+/* --------------- CONTENT --------------------*/
+#content .content-section {
+    width: 800px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 112px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#content .section-heading {
+    font-size: 30px;
+    font-weight: 500;
+    color: #2C5364;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#content .section-sub-slogan {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 2px;
+    font-style: italic;
+    opacity: .6;
+}
+
+#content .about-text {
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+#content .places-list {
+    margin-top: 32px;
+}
+
+
+#content .place-name {
+    font-size: 15px;
+}
+
+#content .place-img {
+    width: 200px;
+    margin-top: 15px;
+    border-radius: 4px;
+    background-position: center;
+    background-size: cover;
+    height: 160px;
+    box-shadow: 0 0.3rem 0.4rem rgba(56, 56, 56, 0.8);
+}
+
+#content .place-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0.3rem 20px rgba(56, 56, 56, 0.8);
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* TOUR SECTION */
+.tour-section {
+    background: url(https://vietnam.travel/themes/custom/vietnamtourism/images/bg-red-pattern.png);
+}
+
+
+.ticket-list {
+    background-color: #f8f8f8;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.ticket-list li {
+    color: #757575;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.ticket-list .sold-out {
+    background-color: #f44336;
+    color: #f8f8f8;
+    padding: 3px 4px;
+    margin-left: 16px;
+}
+
+.ticket-list .sold-quantity {
+    color: #f8f8f8;
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #f44336;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-top: -2px;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+/* Place Tour */
+.place-list {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.places-img {
+    width: 100%;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+
+}
+
+/* .places-img:hover {
+    transform: scale(1.1);
+    border-radius: 4px;
+} */
+
+.place-content {
+    background-color: #fff;
+    padding: 16px;
+    font-size: 15px;
+    /* height: 300px; */
+}
+
+.place-time {
+    margin-top: 15px;
+    color: #757575;
+}
+
+.place-desc {
+    margin-top: 15px;
+    text-align: justify;
+    line-height: 1.4rem;
+    height: 5.6rem;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    word-spacing: 5px;
+}
+
+.place-buy-ticket {
+    text-align: center;
+    text-decoration: none;
+    background-color: #2C5364;
+    color: #fff;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.place-buy-ticket:hover {
+    color: #2C5364;
+    background-color: #ccc;
+}
+
+/* CONTACT SECTION */
+.contact-content {
+    margin-top: 48px;
+}
+
+.contact-info {
+    font-size: 17px;
+    color: #000;
+    line-height: 1.4rem;
+}
+
+.contact-info i[class*="ti-"] {
+    width: 30px;
+    display: inline-block;
+}
+
+
+.contact-info a{
+    color: #3100EE;
+    opacity: .8;
+}
+
+.contact-info a:hover{
+    opacity: 1;
+}
+.contact-form {
+    font-size: 15px;
+}
+
+.contact-form .form-control {
+    padding: 10px;
+    border: solid 1px #ccc;
+    width: 100%;
+    outline: none;
+}
+
+.contact-form .form-submit-btn {
+    background-color: #2C5364;
+    color: #f8f8f8;
+    padding: 10px 16px;
+    float: right;
+    border: none;
+    cursor: pointer;
+}
+
+.form-submit-btn:hover {
+    background-color: #ccc;
+    color: #2C5364;
+}
+
+/* MAP SECTION */
+
+.map-section {
+    background-image: linear-gradient(rgba(44, 83, 100, 0.8) 40%, rgba(33, 58, 66), rgba(15, 32, 39)), url(https://static.kinhtedothi.vn/images/upload/2021/12/19/538b8dde-2983-4161-b2a5-77f371ba8093.jpg);
+    overflow: .6;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.map-locate {
+    width: 100%;
+    margin-top: 40px;
+}
+
+/* MORE TOUR SECTION */
+
+.more-tour-place {
+    text-decoration: none;
+    color: #0c74a0;
+}
+
+
+
+
+/* ------------------ FOOTER ------------------- */
+#footer{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: auto;
+}
+.form-footer{
+    display: flex;
+    padding: 30px 50px 0 50px;
+}
+
+.form-signup{
+    width: 500px;
+}
+
+.text-h2-ft{
+    color: #DAAF0E;
+    font-weight: 500;
+    font-size: 18px;
+}
+.text-h3-ft{
+    width: 360px;
+    height: 40px;
+    font-size: 13px;
+    margin-top: 10px;
+    color: #222222;
+    text-align: justify;
+}
+.input-text{
+    width: 360px;
+    height: 50px;
+    padding: 0 10px;
+    margin-top:  20px;
+    outline: none;
+}
+
+.btn-signup{
+    cursor: pointer;
+    width: 360px;
+    height: 50px;
+    margin-top: 24px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    background: url(https://vietnam.travel/themes/custom/vietnamtourism/images/bg-red-pattern.png);
+}
+
+.btn-signup:hover{
+    background-color: #2C5364;
+    color: #fff;
+}
+.area-link{
+    padding:  0 30px;
+}
+
+.link-list{
+    list-style: none;
+}
+
+.list-uf{
+    text-decoration: none;
+    color:#000;
+    font-size: 13px;
+}
+
+
+.social-list{
+    height: 80px;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social-list--item{
+    color: #fff;
+    text-decoration: none;
+    background-color: #2C5364;
+    border: 1px solid #2C5364;
+    padding: 4px 8px;
+    border-radius: 50%;
+}
+
+.img-footer{
+    width: 100px;
+    height: 100px;
+}
+.text-follow{
+    word-spacing: 2px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.solid-footer{
+    margin: 80px 50px 0;
+    color: #2c5364;
+}
+
+.copyright-text--link{
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list-copyright{
+    font-size: .9rem;
+    display: flex;
+    list-style: none;
+    font-weight: 400;
+}
+
+.link-list--text{
+    padding:0  10px 48px;
+    text-decoration: none;
+    color: #2c5364;
+}
+/* RESPONSIVE*/
+
+
+/* @media only screen and (max-width: 1000px){
+    .Logo{
+        font-size: 16px;
+    }
+
+    .heading__main-box{
+        transform: translate(-40%, -20%);
+    }
+    .form-footer{
+        padding: 30px 20px 0;
+    }
+    .social-list .img-footer{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 920px){
+    .Logo{
+        font-size: 13px;
+    }
+
+    .nav ol li{
+        margin: 0.2rem;
+    }
+
+    .heading__main-box{
+        transform: translate(-35%, -10%);
+    }
+
+    .social-list  .img-footer{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 830px) {
+    .wrapper{
+        overflow: hidden;
+    }
+
+    .Logo{
+        font-size: 16px;
+    }
+    .nav ol li  a{display: none;}
+    .nav a.icon {
+      float: right;
+      display: block;
+    }
+
+    .nav.responsive {position: relative;}
+    .nav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav.responsive a {
+      float: none;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+
+    .heading__main-box{
+        transform: translateX(-20%);
+    }
+
+    .social-list .img-footer{
+        display: none;
+    }
+
+    .solid-footer{
+        margin: 80px 20px 0;
+    }
+  } */

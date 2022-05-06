@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <title>Landing Page Du lịch</title>
+    <link rel="stylesheet" href="./acssets/css/style.css">
+    <link rel="stylesheet" href="./acssets/css/responsive.css">
+    <link rel="stylesheet" href="./acssets/font_icon/themify-icons/themify-icons.css">
+
+</head>
+
+<body>
+
+    <script>
+        $(document).ready(function () {
+            $('#toggle').click(function () {
+                $('nav').slideToggle();
+            });
+        })
+    </script>
+    <div class="wrapper">
+        <!-- HOWKTEAM & CREATE TIM -->
+        <header>
+            <div class="header">
+                <!-- <a href="#"><img src="./upload/Untitled-1.png" alt="photo" class="header__logo"></a> -->
+                <div class="container">
+                    <a href="./index.html" class="link-index">
+                        <img src="./acssets/img/logo.png" alt="Logo">
+                        <p class="Logo">QuangSon tourism</p>
+                    </a>
+
+                    <!--                        
+                        <div class="nav" id="myTopnav">
+                            <ol>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#hottour">Hot Tour</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="#map">Map</a></li>
+                                <li><a href="#more">More</a></li>
+                                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="ti-menu"></i>
+                                  </a></li>
+                            </ol>
+                        </div> -->
+
+                    <div class="navbar">
+                        <div id="toggle">
+                            <i class="ti ti-menu"></i>
+                        </div>
+                        <nav>
+                            <ul id="main-menu">
+                                <li>
+                                    <a href="#about">About</a>
+                                </li>
+                                <li>
+                                    <a href="#hottour">Hottour</a>
+                                </li>
+                                <li>
+                                    <a href="#contact">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="#map">Map</a>
+                                </li>
+                                <li>
+                                    <a href="#more">More</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="row">
+                    <div class="heading__main-box">
+                        <h1 class="header-text"> Hà Giang</h1>
+                        <a href="#" class="btn">Tell Me More</a>
+                        <a href="#" class="btn">Join Us</a>
+                    </div>
+
+                </div>
+                <div class="bgr"></div>
+            </div>
+        </header>
+
+
+        <!-- F8 OFFICIAL -->
+        <div id="content">
+
+            <!-- ABOUT SECTION -->
+            <section id="about">
+                <div class="content-section">
+                    <h2 class="section-heading"> ABOUT</h2>
+                    <p class="section-sub-slogan">Hà Giang - Nơi địa đầu của Tổ Quốc</p>
+                    <p class="about-text">A border province and official Frontier Area, Hà Giang lies in the remote far
+                        northern region of the country. To visit this province is to journey back in time and encounter
+                        some
+                        of Vietnam’s most rugged and grand landscapes. Hà Giang is best experienced as a road trip on
+                        two
+                        wheels, soaking up the majesty of the landscape and the atmosphere of the remote towns and
+                        minority
+                        villages.</p>
+                    <div class="row1 places-list">
+                        <div class="s-col-full col col3 mt-32 text-center">
+                            <p class="place-name">Mã Pì Lèng</p>
+                            <img src="https://media.travelmag.vn/files/thuhang/2020/12/22/16-1936.jpg" alt="Mã Pì Lèng"
+                                class="place-img">
+                        </div>
+                        <div class="s-col-full col col3 mt-32 text-center">
+                            <p class="place-name">Lũng Cú</p>
+                            <img src="http://data.voh.com.vn/voh/Image/2019/09/23/cotco_20190923202146.jpg"
+                                alt="Lũng Cú" class="place-img">
+                        </div>
+                        <div class="s-col-full col col3 mt-32 text-center">
+                            <p class="place-name">Tam Giác Mạch Flower</p>
+                            <img src="https://datviet24h.com.vn/upload_images/images/5bf0e7b9b6a2d15.jpg"
+                                alt="Tam Giác Mạch Flower" class="place-img">
+                        </div>
+                        <!-- <div class="clear"></div> -->
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Tour Section -->
+            <section id="hottour">
+                <div class="tour-section">
+                    <div class="content-section">
+                        <h2 class="section-heading text-white">HOT TOUR</h2>
+                        <p class="section-sub-slogan text-white">Remmember to book your ticket !</p>
+                        <!-- Ticket List -->
+                        <ul class="ticket-list">
+                            <li>March <span class="sold-out">Sold Out</span></li>
+                            <li>April <span class="sold-out">Sold Out</li>
+                            <li>May <span class="sold-quantity">90</span></li>
+                        </ul>
+
+                        <!-- Places Tour -->
+                        <div class="row1 place-list">
+                            <div class=" col col3 mt-16 s-col-full">
+                                <img src="./acssets/img/place1.jpg" alt="" class="places-img">
+                                <div class="place-content">
+                                    <h3 class="place-heading-name">
+                                        Mã Pì Lèng
+                                    </h3>
+                                    <p class="place-time">
+                                        Sat 26 March 2022
+                                    </p>
+                                    <p class="place-desc">
+                                        The drive into Đồng Văn is impossibly beautiful, however Mã Pí Lèng - where the
+                                        road
+                                        snakes past the Nho Quế River - is the jewel in Hà Giang crown.
+                                    </p>
+                                    <a href="#" class="place-buy-ticket s-full-width">Buy Tickets</a>
+                                </div>
+                            </div>
+                            <div class=" col col3 mt-16 s-col-full">
+                                <img src="./acssets/img/place2.jpg" alt="Quản Bạ Pass" class="places-img">
+                                <div class="place-content">
+                                    <h3 class="place-heading-name">
+                                        Quản Bạ Pass
+                                    </h3>
+                                    <p class="place-time">
+                                        Mon 2 Apr 2022
+                                    </p>
+                                    <p class="place-desc">
+                                        Trekking opportunities are plentiful in Ha Giang. The Quản Bạ Pass holds a
+                                        lookout
+                                        that lives up to its name: Heaven’s Gate.
+                                    </p>
+                                    <a href="#" class="place-buy-ticket s-full-width">Buy Tickets</a>
+                                </div>
+                            </div>
+                            <div class=" col col3 mt-16 s-col-full">
+                                <img src="./acssets/img/place3.webp" alt="" class="places-img">
+                                <div class="place-content">
+                                    <h3 class="place-heading-name">
+                                        Lũng Cú
+                                    </h3>
+                                    <p class="place-time">
+                                        Fri 4 May 2022
+                                    </p>
+                                    <p class="place-desc">
+                                        Make time to journey north to Lũng Cú, where a gigantic Vietnamese flag blows
+                                        proudly at the border.
+                                    </p>
+                                    <a href="#" class="place-buy-ticket s-full-width">Buy Tickets</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- ROW 2 -->
+
+                        <!-- <div class="clear"></div> -->
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- Contact Section -->
+            <section id="contact">
+                <div class="content-section">
+                    <h2 class="section-heading">CONTACT</h2>
+                    <p class="section-sub-slogan">Contact us for more information</p>
+
+                    <div class="row1 contact-content">
+                        <div class="col col-half s-col-full contact-info">
+                            <p><i class="ti-location-pin"></i>Ha Noi, VN</p>
+                            <p><i class="ti-mobile"></i>Phone: <a href="tel:+84 123456"> +84 123456</a> </p>
+                            <p><i class="ti-email"></i>Email: <a href="mailto:email@gmail.com">email@gmail.com</a> </p>
+                        </div>
+
+                        <div class="col col-half s-col-full contact-form">
+                            <form action="">
+                                <div class="row1">
+                                    <div class="col col-half s-col-full">
+                                        <input type="text" name="" id="" required placeholder="Name"
+                                            class="form-control">
+                                    </div>
+                                    <div class="col col-half s-col-full s-mt-8">
+                                        <input type="email" name="" id="" required placeholder="Email"
+                                            class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row1 mt-8">
+                                    <div class="col col-full ">
+                                        <input type="text" name="" id="" required placeholder="Message"
+                                            class="form-control">
+                                    </div>
+                                </div>
+                                <input type="submit" value="SEND" class="form-submit-btn mt-16  s-full-width">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- MapSection -->
+
+            <section id="map">
+                <div class="map-section">
+                    <div class="content-section">
+                        <h2 class="section-heading text-white">MAP</h2>
+                        <div class="map-locate">
+                            <img src="./acssets/img/locate_tour.jpg" alt="map" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- YOU MAY ALSO LIKE -->
+            <section id="more">
+                <div class="content-section">
+                    <h2 class="section-heading">MORE TOUR</h2>
+                    <p class="section-sub-slogan">Some tour nearby place</p>
+
+                    <div class="row1 places-list col-picture">
+                        <div class="s-col-full col col3  text-center">
+                            <a href="#" class="more-tour-place">
+                                <p class="place-name font-size mt-16">Ninh Binh</p>
+                                <img src="./acssets/img/ninhbinh.jpg" alt="ninhbinh" class="place-img ">
+                            </a>
+                        </div>
+                        <div class="s-col-full col col3 text-center">
+                            <a href="#" class="more-tour-place">
+                                <p class="place-name font-size mt-16">Mai Chau</p>
+                                <img src="./acssets/img/maichau.jpg" alt="maichau" class="place-img ">
+                            </a>
+                        </div>
+                        <div class="s-col-full col col3 text-center">
+                            <a href="#" class="more-tour-place">
+                                <p class="place-name font-size mt-16">Ha Noi</p>
+                                <img src="./acssets/img/hanoi.jpg" alt="hanoi" class="place-img">
+                            </a>
+                        </div>
+                        <!-- <div class="clear"></div> -->
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+
+
+        <div id="footer">
+            <div class="form-footer">
+                <div class="col3 form-signup">
+                    <label for="email" class="text-h2-ft">SIGN UP FOR OUR NEWSLETTER</label> <br>
+                    <span class="text-h3-ft">Receive new travel stories from Vietnam once a month in your inbox.</span>
+                    <br>
+                    <input type="text" name="email" id="email" placeholder="Email" class="input-text s-haft-width" required><br>
+                    <input type="password" name="email" id="password" placeholder="Password" class="input-text s-haft-width"
+                        required><br>
+                    <input type="submit" value="Sign Up" name="btn-signup" class="btn-signup">
+                </div>
+                <div class="col3 area-link">
+                    <span class="text-h2-ft">USEFUL LINKS</span>
+                    <ul class="link-list">
+                        <li><a href="#" class="list-uf">Stay at Home Kit</a></li>
+                        <li> <a href="#" class="list-uf">Visas for Vietnam</a></li>
+                        <li> <a href="#" class="list-uf">Beginner Guide</a></li>
+                        <li> <a href="#" class="list-uf">FAQs</a></li>
+                        <li> <a href="#" class="list-uf">Sitemap</a></li>
+                        <li> <a href="#" class="list-uf">Industry Resources</a></li>
+                    </ul>
+
+                </div>
+                <div class="follow-ft col3 ">
+                    <span class="text-h2-ft">FOLLOW US</span>
+                    <div class="social-list">
+                        <a href="https://www.facebook.com/" class="social-list--item"><i class="ti-facebook "></i></a>
+                        <a href="https://www.instagram.com/" class="social-list--item"><i class="ti-instagram "></i></a>
+                        <a href="https://github.com/" class="social-list--item"><i class="ti-github "></i></a>
+                        <a href="https://www.linkedin.com/" class="social-list--item"><i class="ti-linkedin "></i></a>
+                        <a href="https://www.pinterest.com/" class="social-list--item"><i
+                                class="ti-pinterest-alt "></i></a>
+                        <a href="https://stackoverflow.com/" class="social-list--item"><i
+                                class="ti-stack-overflow"></i></a>
+                        <img src="./acssets/img/logo.png" alt="Logo" class="img-footer">
+                    </div>
+
+                    <p class="text-follow">Welcome to the official website of Vietnam travel of QuangSon Tourism. Visit
+                        our social media pages for more travel inspiration.</p>
+                </div>
+
+            </div>
+            <hr class="solid-footer">
+
+            <div class="copyright-text--link">
+                <ul class="list-copyright">
+                    <li>
+                        <p class="link-list--text" style="color: #000;">&copy;2022 Official Website QuangSon Tourism</p>
+                    </li>
+                    <li><a href="" class="link-list--text">Privacy Policy</a></li>
+                    <li><a href="" class="link-list--text">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        const containerElement = document.querySelector(".container")
+        function handelScroll() {
+            window.scrollY > 100 ? containerElement.classList.add("scroll") : containerElement.classList.remove("scroll")
+        }
+        window.addEventListener("scroll", handelScroll);
+
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav";
+            }
+        }
+    </script>
+</body>
+
+</html>
