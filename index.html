@@ -15,15 +15,8 @@
 
 <body>
 
-    <script>
-        $(document).ready(function () {
-            $('#toggle').click(function () {
-                $('nav').slideToggle();
-            });
-        })
-    </script>
     <div class="wrapper">
-        <!-- HOWKTEAM & CREATE TIM -->
+        
         <header>
             <div class="header">
                 <!-- <a href="#"><img src="./upload/Untitled-1.png" alt="photo" class="header__logo"></a> -->
@@ -33,20 +26,7 @@
                         <p class="Logo">QuangSon tourism</p>
                     </a>
 
-                    <!--                        
-                        <div class="nav" id="myTopnav">
-                            <ol>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#hottour">Hot Tour</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                                <li><a href="#map">Map</a></li>
-                                <li><a href="#more">More</a></li>
-                                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                                <i class="ti-menu"></i>
-                                  </a></li>
-                            </ol>
-                        </div> -->
-
+                 
                     <div class="navbar">
                         <div id="toggle">
                             <i class="ti ti-menu"></i>
@@ -91,7 +71,7 @@
         </header>
 
 
-        <!-- F8 OFFICIAL -->
+
         <div id="content">
 
             <!-- ABOUT SECTION -->
@@ -366,6 +346,12 @@
                 x.className = "nav";
             }
         }
+        
+          $(document).ready(function () {
+            $('#toggle').click(function () {
+                $('nav').slideToggle();
+            });
+        })
     </script>
 </body>
 
