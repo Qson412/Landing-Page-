@@ -583,6 +583,10 @@ nav #main-menu li:hover a {
 }
 
 
+.list-uf:hover{
+    color:red;
+}
+
 .social-list{
     height: 80px;
     display: flex;
